@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <title>Ni Made Intan Lestari</title>
+  </head>
+  <body>
+    <div>
+      <!-- Menu dan Logo  -->
+      <div
+        class="md:flex items-center pt-4 justify-between pr-10 fixed top-0 w-full bg-white shadow-md z-50"
+      >
+        <!-- Checkbox untuk toggle menu -->
+        <input type="checkbox" id="menu-toggle" class="peer hidden" />
+
+        <!-- Burger Button -->
+        <label
+          for="menu-toggle"
+          class="block md:hidden cursor-pointer float-right mt-2.5"
+        >
+          <div class="w-8 h-1 bg-gray-800 mb-1 transition duration-300"></div>
+          <div class="w-8 h-1 bg-gray-800 mb-1 transition duration-300"></div>
+          <div class="w-8 h-1 bg-gray-800 transition duration-300"></div>
+        </label>
+
+        <div class="flex items-center gap-2">
+          <img
+            src="img/intan.jpeg"
+            alt="foto"
+            class="w-16 h-16 rounded-full mb-3 mr-3 mx-4 md:ml-16"
+          />
+          <a href="" class="font-bold md:text-xl -mt-3"
+            >NI MADE INTAN LESTARI</a
+          >
+        </div>
+
+        <!-- Menu -->
+        <div
+          class="hidden text-center peer-checked:flex md:flex-col top-16 left-0 w-full shadow-md md:static md:flex md:shadow-none md:w-auto -mt-3"
+        >
+          <ul
+            class="flex flex-col items-center font-bold md:flex-row md:text-left w-auto"
+          >
+            <li>
+              <a href="#home" class="block px-6 py-3 hover:text-blue-900"
+                >HOME</a
+              >
+            </li>
+            <li>
+              <a href="#about-me" class="block px-6 py-3 hover:text-blue-900"
+                >ABOUT ME</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="block px-6 py-3 hover:text-blue-900"
+                >PROJECTS</a
+              >
+            </li>
+            <li>
+              <a
+                href="our-restauran.html"
+                class="block px-6 hover:text-blue-900"
+                >CONTACT</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="bg-gray-100">
+        <!-- home -->
+        <section id="home" class="text-center space-y-16 pt-32 mx-10 md:mx-0">
+          <h1 class="text-3xl md:text-5xl font-extrabold">
+            HEY, I'M NI MADE INTAN LESTARI
+          </h1>
+          <p class="font-medium text-xl md:text-2xl mx-56">
+            I am learning and developing skills as a Front-End Developer by
+            exploring HTML, CSS, and JavaScript.
+          </p>
+          <button
+            class="bg-blue-800 hover:bg-blue-950 rounded text-white font-medium text-xl w-52 h-16 mb-10"
+          >
+            <a href="">PROJECTS</a>
+          </button>
+        </section>
+
+        <!-- About Me -->
+        <section id="about-me" class="mx-20 pt-32">
+          <h2 class="text-3xl font-black text-center mb-10 tracking-wider">
+            ABOUT ME
+          </h2>
+          <p class="text-xl text-center mb-10 mx-56">
+            Here, you will find more information about me, what I do, and my
+            current skills, especially in programming and technology.
+          </p>
+          <div class="grid grid-cols-2">
+            <div class="space-y-5">
+              <h4 class="text-2xl font-medium">Get to know me!</h4>
+              <p>
+                Computer Science graduate with 10 years of experience in market
+                data auditing, skilled in data analysis and information
+                processing. Currently focusing on developing front-end
+                development skills, with a strong interest in building
+                responsive and interactive user interfaces. Actively learning
+                technologies such as HTML, CSS, JavaScript, and modern
+                frameworks to support a career transition.
+              </p>
+              <p>
+                I'm open to Job opportunities where I can contribute, learn and
+                grow. If you have a good opportunity that matches my skills and
+                experience then don't hesitate to contact me.
+              </p>
+              <button
+                class="bg-blue-800 hover:bg-blue-950 rounded text-white font-medium text-xl w-44 h-16 mt-5"
+              >
+                <a href="">CONTACT</a>
+              </button>
+            </div>
+            <div class="space-y-5 ml-16">
+              <h4 class="text-2xl font-medium">My SKills</h4>
+              <div class="flex flex-wrap gap-5 text-center">
+                <p
+                  class="bg-gray-200 text-black rounded font-medium w-20 h-10 mt-5 py-2"
+                >
+                  HTML
+                </p>
+                <p
+                  class="bg-gray-200 text-black rounded font-medium w-20 h-10 mt-5 py-2"
+                >
+                  CSS
+                </p>
+                <p
+                  class="bg-gray-200 text-black rounded font-medium w-28 h-10 mt-5 py-2"
+                >
+                  JavaScript
+                </p>
+                <p
+                  class="bg-gray-200 text-black rounded font-medium w-20 h-10 mt-5 py-2"
+                >
+                  GIT
+                </p>
+                <p
+                  class="bg-gray-200 text-black rounded font-medium w-20 h-10 mt-5 py-2"
+                >
+                  Github
+                </p>
+                <p
+                  class="bg-gray-200 text-black rounded font-medium w-40 h-10 mt-5 py-2"
+                >
+                  Responsive Design
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="mx-20 pt-32 text-center">
+          <h2 class="text-3xl font-black mb-10 tracking-wider">PROJECTS</h2>
+          <p class="text-xl mb-16">
+            Here are some projects that I have created during my time in the
+            bootcamp
+          </p>
+          <div class="space-y-3">
+            <h3 class="text-xl font-medium">Project 1: Website Portfolio</h3>
+            <p>This website is built using HTML, Tailwind, and JavaScript.</p>
+            <button
+              class="bg-blue-800 hover:bg-blue-950 rounded text-white font-medium w-28 h-10 mb-10"
+            >
+              <a href="">SEE PROJECT</a>
+            </button>
+          </div>
+          <div class="space-y-3">
+            <h3 class="text-xl font-medium">Project 2: Company Profile</h3>
+            <p>This website is built using HTML, CSS.</p>
+            <button
+              class="bg-blue-800 hover:bg-blue-950 rounded text-white font-medium w-28 h-10 mb-10"
+            >
+              <a href="">SEE PROJECT</a>
+            </button>
+          </div>
+          <div class="space-y-3">
+            <h3 class="text-xl font-medium">
+              Project 1: Great Hall Restaurant
+            </h3>
+            <p>This website is built using HTML, Tailwind.</p>
+            <button
+              class="bg-blue-800 hover:bg-blue-950 rounded text-white font-medium w-28 h-10 mb-10"
+            >
+              <a href="">SEE PROJECT</a>
+            </button>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
