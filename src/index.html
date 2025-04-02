@@ -32,9 +32,12 @@
             alt="foto"
             class="w-16 h-16 rounded-full mb-3 mr-3 mx-4 md:ml-16"
           />
-          <a href="" class="font-bold md:text-xl -mt-3"
-            >NI MADE INTAN LESTARI</a
-          >
+          <a
+              href="javascript:;"
+              onclick="document.querySelector('#home').scrollIntoView({behavior: 'smooth',block: 'start'});"
+              class="block py-3 hover:text-blue-900 font-bold md:text-xl -mt-3"
+              >NI MADE INTAN LESTARI</a
+            >
         </div>
 
         <!-- Menu -->
@@ -45,26 +48,37 @@
             class="flex flex-col items-center font-bold md:flex-row md:text-left w-auto"
           >
             <li>
-              <a href="#home" class="block px-6 py-3 hover:text-blue-900"
+              <a
+                href="javascript:;"
+                onclick="document.querySelector('#home').scrollIntoView({behavior: 'smooth',block: 'start'});"
+                class="block px-6 py-3 hover:text-blue-900"
                 >HOME</a
               >
             </li>
             <li>
-              <a href="#about-me" class="block px-6 py-3 hover:text-blue-900"
+              <a
+                href="javascript:;"
+                onclick="document.querySelector('#about-me').scrollIntoView({behavior: 'smooth',block: 'start'});"
+                class="block px-6 py-3 hover:text-blue-900"
                 >ABOUT ME</a
               >
             </li>
             <li>
-              <a href="#projects" class="block px-6 py-3 hover:text-blue-900"
+              <a
+                href="javascript:;"
+                onclick="document.querySelector('#projects').scrollIntoView({behavior: 'smooth',block: 'start'});"
+                class="block px-6 py-3 hover:text-blue-900"
                 >PROJECTS</a
               >
             </li>
             <li>
               <a
-                href="our-restauran.html"
-                class="block px-6 hover:text-blue-900"
-                >CONTACT</a
-              >
+              href="javascript:;"
+              onclick="document.querySelector('#contact').scrollIntoView({behavior: 'smooth',block: 'start'});"
+              class="block px-6 py-3 hover:text-blue-900"
+              >CONTACT</a
+            >
+          </li>
             </li>
           </ul>
         </div>
@@ -75,14 +89,19 @@
           <h1 class="text-3xl md:text-5xl font-extrabold">
             HEY, I'M NI MADE INTAN LESTARI
           </h1>
-          <p class="font-medium text-xl md:text-2xl mx-56">
+          <p class="font-medium text-xl md:text-2xl md:mx-56">
             I am learning and developing skills as a Front-End Developer by
             exploring HTML, CSS, and JavaScript.
           </p>
           <button
             class="bg-blue-800 hover:bg-blue-950 rounded text-white font-medium text-xl w-52 h-16 mb-10"
           >
-            <a href="">PROJECTS</a>
+            <a
+              href="javascript:;"
+              onclick="document.querySelector('#projects').scrollIntoView({behavior: 'smooth',block: 'start'});"
+              class="block px-6 py-3 hover:text-blue-900"
+              >PROJECTS</a
+            >
           </button>
         </section>
 
@@ -91,11 +110,11 @@
           <h2 class="text-3xl font-black text-center mb-10 tracking-wider">
             ABOUT ME
           </h2>
-          <p class="text-xl text-center mb-10 mx-56">
+          <p class="text-xl text-center mb-10 md:mx-56">
             Here, you will find more information about me, what I do, and my
             current skills, especially in programming and technology.
           </p>
-          <div class="grid grid-cols-2">
+          <div class="md:grid md:grid-cols-2">
             <div class="space-y-5">
               <h4 class="text-2xl font-medium">Get to know me!</h4>
               <p>
@@ -115,12 +134,17 @@
               <button
                 class="bg-blue-800 hover:bg-blue-950 rounded text-white font-medium text-xl w-44 h-16 mt-5"
               >
-                <a href="">CONTACT</a>
+              <a
+              href="javascript:;"
+              onclick="document.querySelector('#contact').scrollIntoView({behavior: 'smooth',block: 'start'});"
+              class="block px-6 py-3 hover:text-blue-900"
+              >CONTACT</a
+            >
               </button>
             </div>
-            <div class="space-y-5 ml-16">
-              <h4 class="text-2xl font-medium">My SKills</h4>
-              <div class="flex flex-wrap gap-5 text-center">
+            <div class="space-y-5 md:ml-16">
+              <h4 class="text-2xl font-medium mt-16 md:mt-0">My SKills</h4>
+              <div class="flex flex-wrap gap-2.5 md:gap-5 text-center">
                 <p
                   class="bg-gray-200 text-black rounded font-medium w-20 h-10 mt-5 py-2"
                 >
@@ -169,7 +193,9 @@
             <button
               class="bg-blue-800 hover:bg-blue-950 rounded text-white font-medium w-28 h-10 mb-10"
             >
-              <a href="">SEE PROJECT</a>
+              <a href="https://github.com/mdintanlestari/portofolio/tree/main"
+                >SEE PROJECT</a
+              >
             </button>
           </div>
           <div class="space-y-3">
@@ -178,7 +204,9 @@
             <button
               class="bg-blue-800 hover:bg-blue-950 rounded text-white font-medium w-28 h-10 mb-10"
             >
-              <a href="">SEE PROJECT</a>
+              <a href="https://github.com/mdintanlestari/company-Profile"
+                >SEE PROJECT</a
+              >
             </button>
           </div>
           <div class="space-y-3">
@@ -189,8 +217,75 @@
             <button
               class="bg-blue-800 hover:bg-blue-950 rounded text-white font-medium w-28 h-10 mb-10"
             >
-              <a href="">SEE PROJECT</a>
+              <a href="https://github.com/mdintanlestari/Great-hall-Restaurant">SEE PROJECT</a>
             </button>
+          </div>
+        </section>
+
+        <!-- contact -->
+        <section id="contact"  class="flex justify-center items-center min-h-screen mt-20 md:mt-0 pt-28">
+          <div class="text-center">
+          <h2 class="text-3xl font-black mb-10 tracking-wider">CONTACT</h2>
+          <p class="text-xl mb-16">Let's connect! Feel free to send me a message via email or the contact form below.</p>
+          <div
+          class="bg-white p-6 max-w-xl shadow rounded-lg mb-7 md:mb-10 space-y-3 text-left md:ml-24 mx-5 md:mx-0"
+        >
+          <div>
+            <label for="name" class="mb-3 block">Name</label>
+            <input
+              type="text"
+              name="fName"
+              id="fName"
+              class="border-2 text-gray-300 h-10 w-full"
+            />
+          </div>
+          <div>
+            <label for="email" class="mb-3 block">Email</label>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              class="border-2 text-gray-300 h-10 w-full"
+            />
+          </div>
+          <div>
+            <label for="comment">Message</label>
+            <textarea
+              name="comment"
+              id="comment"
+              cols="30"
+              rows="40"
+              class="border-2 text-gray-300 h-48 w-full"
+            ></textarea>
+          </div>
+          <button
+            class="mt-0 md:mt-10 border-0 bg-blue-800 hover:bg-blue-950 rounded text-white px-10 py-5 font-bold cursor-pointer  mb-10 md:mb-0"
+          >
+            SUBMIT
+          </button>
+        </div>
+      </div>
+          </div>
+        </section>
+
+        <!-- footer  -->
+        <section class="bg-black text-white  pt-10 pb-10" >
+          <div class="md:grid md:grid-cols-2 mx-5 md:mx-20">
+            <div>
+              <h5 class=" font-medium text-xl mb-5">NI MADE INTAN LESTARI</h5>
+              <p class="">learning and developing skills as a Front-End <br> Developer by exploring HTML, CSS, and JavaScript.
+              </p>
+            </div>
+            <div class="flex flex-col md:ml-52 mt-14 md:mt-0">
+              <h5 class=" font-medium text-xl mb-5">Social</h5>
+              <p>intanlestari2130@gmail.com</p>
+              <p>www.linkedin.com/in/mdintanlestari</p>
+              <p>https://github.com/mdintanlestari</p>
+
+            </div>
+          </div>
+          <div class=" text-white text-center">
+            <p class=" mt-20">copyright ©2025 made by. <a href="#home" class="font-medium">Ni Made Intan Lestari</a></p>
           </div>
         </section>
       </div>
